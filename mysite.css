@@ -150,3 +150,6 @@ footer{
     margin: auto;
     margin-bottom: 1rem!important;
 }
+.reg-add-pet > summary{
+    /*list-style: none;*/
+}

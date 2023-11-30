@@ -34,10 +34,10 @@
 						<a class="nav-link" href="#">Личный кабинет</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" href="#">Регистрация</a>
+						<a class="nav-link" href="#">Регистрация</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Добавить объявление</a>
+						<a class="nav-link active" href="#">Добавить объявление</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Поиск по объявлениям</a>
@@ -53,18 +53,39 @@
 		</header>
 		<main>
             <div class="reg-window">
-                <h2>Регистрация</h2>
+                <h2>Добавить объявление</h2>
                 <form class="form-reg">
                     <input class="form-control" type="text" placeholder="Имя" pattern="^[а-яА-Я -]{18}" required>
                     <input class="form-control" type="tel" placeholder="Телефон" pattern="^(+)?[0-9]{11}$" required>
                     <input class="form-control" type="email" placeholder="Почта" required>
-                    <div>
-                        <input type="checkbox" id="sogl">
-                        <label for="sogl">Регистрация</label>
+                    <details class="reg-add-pet">
+						<summary>
+							<strong>Регистрация</strong>
+						</summary>
+						<div class="form-reg">
+							<input class="form-control" type="password" placeholder="Пароль" pattern="^[a-zA-Z0-9!/.,*-+()#$@;:&?]{2}$" required>
+                    		<input class="form-control" type="password" placeholder="Подтверждение пароля" pattern="^[a-zA-Z0-9!/.,*-+()#$@;:&?]{2}$" required>
+						</div>
+					</details>
+                    <div class="mb-3">
+						<label for="formFile1" class="form-label">Изображения</label>
+						<input class="form-control" type="file" id="formFile1" required>
+					</div>
+					<div class="mb-3">
+						<input class="form-control" type="file" id="formFile2">
+					  </div>
+					  <div class="mb-3">
+						<input class="form-control" type="file" id="formFile3">
+					</div>
+					<input class="form-control" type="text" placeholder="Клеймо">
+					<div class="mb-3">
+						<label for="exampleFormControlTextarea1" class="form-label">Описание</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+					<div>
+                    	<input type="checkbox" id="sogl" required>
+                        <label for="sogl">Согласие на обработку персональных данных</label>
                     </div>
-                    <input class="form-control" type="password" placeholder="Пароль" pattern="^[a-zA-Z0-9!/.,*-+()#$@;:&?]{2}$" required>
-                    <input class="form-control" type="password" placeholder="Подтверждение пароля" pattern="^[a-zA-Z0-9!/.,*-+()#$@;:&?]{2}$" required>
-                    
                     <button class="btn primary-color2 btn-primary" type="submit">Регистрация</button>
                 </form>
             </div>
