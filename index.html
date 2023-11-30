@@ -45,15 +45,15 @@
 					</ul>
 					<form class="d-flex">
 					<input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
-					<button class="btn btn-primary" type="submit">Поиск</button>
+					<button class="btn btn-primary primary-color2" type="submit">Поиск</button>
 					</form>
 				</div>
 				</div>
 			</nav>
 		</header>
 		<main>
-			<h2 class="text-center text-white bg-primary m-2">Вернувшиеся животные</h2>
-			<div id="carouselExampleCaptions" class="carousel slide m-auto bg-opacity-25 w-75 p-3 obrez" data-bs-ride="true" style="min-height: 450px; background-color: aquamarine;">
+			<h2 class="text-center text-white primary-color">Вернувшиеся животные</h2>
+			<div id="carouselExampleCaptions" class="carousel slide m-auto bg-opacity-25 p-3 obrez secondary-color" >
 				<div class="carousel-indicators">
 				  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 				  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -62,26 +62,40 @@
 				</div>
 				<div class="carousel-inner">
 				  <div class="carousel-item active">
-					<img src="img/animals/dog1.png" class="d-block slider-returned-pets-img" alt="dog1" style="max-width: 300px; max-height: 250px;">
-					<div>
+					<div class="slider-returned-pets-img">
+						<img src="img/animals/dog1.png" class="d-block" alt="dog1">
+					</div>
+					<div class="carousel-description-over">
 						<h5>Нашли собаку! Ул. Рокоссовского, 20</h5>
 					  	<p class="carousel-description">Cобака, возраст более шести лет, беспородная.</p>
 					</div>
 				  </div>
 				  <div class="carousel-item">
-					<img src="img/animals/cat1.png" class="d-block slider-returned-pets-img" alt="cat1" style="max-width: 300px; max-height: 250px;">
+					<div class="slider-returned-pets-img">
+						<img src="img/animals/cat1.png" class="d-block" alt="cat1" >
+					</div>
+					<div class="carousel-description-over">
 					  <h5>Кошка найдена: ул. Советской Армии</h5>
 					  <p class="carousel-description">Кот белого цвета с серыми пятнами. Очень ласковый, пухлый, тянется к людям. Прибился к офисному зданию в поисках тепла.</p>
+					</div>
 				  </div>
 				  <div class="carousel-item">
-					<img src="img/animals/cat2.png" class="d-block" alt="cat2" style="max-width: 300px; max-height: 250px;">
+					<div class="slider-returned-pets-img">
+						<img src="img/animals/cat2.png" class="d-block" alt="cat2" >
+					</div>
+					<div class="carousel-description-over">
 					  <h5>Нашли кошку: Камская ул., 37</h5>
 					  <p class="carousel-description">Рыжий окрас,возраст 3 года</p>
+					</div>
 				  </div>
 				  <div class="carousel-item">
-					<img src="img/animals/dog2.png" class="d-block" alt="dog2" style="max-width: 300px; max-height: 250px;">
+					<div class="slider-returned-pets-img">
+						<img src="img/animals/dog2.png" class="d-block" alt="dog2" >
+					</div>
+					<div class="carousel-description-over">
 					  <h5>Найден пёс: Новое Кюмлено, СПб</h5>
 					  <p class="carousel-description">Здравствуйте Всеволожский район Посёлок новое Кюмлено Город :Санкт-Петербург Найден пёс Прибился к дому , в сильную метель Скорее всего Швейцарская овчарка Хозяева , откликнитесь Ошейника нет Виктория https://vk.com/starnoita</p>
+					</div>
 				  </div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
@@ -93,47 +107,76 @@
 				  <span class="visually-hidden">Следующий</span>
 				</button>
 			</div>
-			<h2 class="text-center text-white bg-primary m-2">Карточки найденных животных</h2>
+			<h2 class="text-center text-white primary-color">Найденные животные</h2>
 			<div class="row row-cols-1 row-cols-md-3 g-4">
 				<div class="col">
 				  <div class="card h-100">
-					<img src="..." class="card-img-top" alt="...">
+					<img src="img/animals/maxwel.png" class="card-img-top" alt="cat">
 					<div class="card-body">
-					  <h5 class="card-title">Название карточки</h5>
-					  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					  <h5 class="card-title">Найдена кошка, Боровское ш., Мск</h5>
+					  <p class="card-text">Найдена Кошка. Чëрная с белой грудкой, лапками и усами. На вид около 10 лет. Имеет небольшой избыточный вес. К лотку приучена.</p>
 					</div>
 				  </div>
 				</div>
 				<div class="col">
 				  <div class="card h-100">
-					<img src="..." class="card-img-top" alt="...">
+					<img src="img/animals/puppy.png" class="card-img-top" alt="dog">
 					<div class="card-body">
-					  <h5 class="card-title">Название карточки</h5>
-					  <p class="card-text">This is a short card.</p>
+					  <h5 class="card-title">Найдена собака: Щелково, Кармолино</h5>
+					  <p class="card-text">МО, Щелковский р-он, деревня Кармолино, замечен щенок в ошейнике, месяца 4 на вид. Для связи : +79778047843, Юлия</p>
 					</div>
 				  </div>
 				</div>
 				<div class="col">
 				  <div class="card h-100">
-					<img src="..." class="card-img-top" alt="...">
+					<img src="img/animals/citty.png" class="card-img-top" alt="cat">
 					<div class="card-body">
-					  <h5 class="card-title">Название карточки</h5>
-					  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+					  <h5 class="card-title">Найдена кошка: Соколиной Горы, 8к1</h5>
+					  <p class="card-text">Кошечку подбросили в подъезд, очень стресует. Породистая.</p>
 					</div>
 				  </div>
 				</div>
 				<div class="col">
 				  <div class="card h-100">
-					<img src="..." class="card-img-top" alt="...">
+					<img src="img/animals/gratcat.png" class="card-img-top" alt="cat">
 					<div class="card-body">
-					  <h5 class="card-title">Название карточки</h5>
-					  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					  <h5 class="card-title">Кошечку подбросили в подъезд, очень стресует. Породистая.</h5>
+					  <p class="card-text">Город Подольск, ул.Народная 29А, 3-й подъезд, на площадке девятого этажа. 29.11.2023.</p>
 					</div>
 				  </div>
 				</div>
+				<div class="col">
+					<div class="card h-100">
+					  <img src="img/animals/bigdog.png" class="card-img-top" alt="dog">
+					  <div class="card-body">
+						<h5 class="card-title">Найдена собака, Ясеневая ул., Москва</h5>
+						<p class="card-text">С коричневым кожаным ошейником, бегает ищет следы. На контакт не пошел</p>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col">
+					<div class="card h-100">
+					  <img src="img/animals/doggy.png" class="card-img-top" alt="dog">
+					  <div class="card-body">
+						<h5 class="card-title">Найдена собака: Строгинский б-р, 1 к2</h5>
+						<p class="card-text">В магазине Перекресток сидел пес. По словам сотрудников – находился в магазине очень долго. Спокойный, с ошейником.</p>
+					  </div>
+					</div>
+				  </div>
 			  </div>
+			<div class="sub">
+				<h2 class="text-center text-white primary-color">Подсписка на рассылку</h2>
+				<form class="sub-form">
+					<p>Введите адрес электронной почты</p>
+					<input class="form-control me-2" type="search" placeholder="Почта" aria-label="Search">
+					<button class="btn btn-primary primary-color2" type="submit">Подписаться</button>
+				</form>
+			</div>
+
 		</main>
-		
+		<footer>
+			
+		</footer>
 
 <!--		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
