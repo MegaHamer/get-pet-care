@@ -132,6 +132,21 @@
     width: auto!important;
 }
 footer{
-    height: 200px;
+    min-height: 200px;
     background-color: #BF7130;
+}
+
+.form-reg{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 0.5rem;
+}
+.form-reg button{
+    width: 200px;
+}
+.reg-window{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1rem!important;
 }
