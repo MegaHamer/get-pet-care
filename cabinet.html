@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!--
+Политехнический колледж городского хозяйства
+МДК.08.01 Проектирование и разработка интерфейсов пользователей
+Практическая работа №
+Студент гр. ИР-21-4
+ФИО Чуркин А.А.
+Преподаватель Л.В. Ильюшенков
+-->
+<html lang="ru">
+    <head>
+        <title>Личный кабинет</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+--><link rel="stylesheet" type="text/css" href="mysite.css">
+<!---<script src="/js/script1.js"></script>-->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container-fluid">
+				<a class="navbar-brand" href="index.html"><img src="img/logo.png" class="w-25 rounded-3" alt="logo"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link " aria-current="page" href="index.html">Главная</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Личный кабинет</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Регистрация</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Добавить объявление</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Поиск по объявлениям</a>
+					</li>
+					</ul>
+					<form class="d-flex">
+					<input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+					<button class="btn btn-primary primary-color2" type="submit">Поиск</button>
+					</form>
+				</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+            <section style="background-color: #eee;">
+                <div class="container py-5">
+                  <div class="row">
+                    <div class="row">
+                        <div class="col-lg-4">
+                        <div class="card mb-4">
+                            <div class="card-body text-center">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar"
+                                class="rounded-circle img-fluid" style="width: 150px;">
+                            <h5 class="my-3">User227_xxxXXxxx_</h5>
+                            </div>
+                        </div>
+                        
+                        </div>
+                        <div class="col-lg-8">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                <p class="mb-0">Имя пользователя</p>
+                                </div>
+                                <div class="col-sm-8">
+                                <p class="text-muted mb-0">Чуркин Артем</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                <p class="mb-0">Почта</p>
+                                </div>
+                                <div class="col-sm-8">
+                                <p class="text-muted mb-0">example@example.com</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                <p class="mb-0">Телефон</p>
+                                </div>
+                                <div class="col-sm-8">
+                                <p class="text-muted mb-0">(097) 234-5678</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                <p class="mb-0">Адрес</p>
+                                </div>
+                                <div class="col-sm-8">
+                                <p class="text-muted mb-0">Санкт-Петербург</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                    <h2 class="row">Размещенные объявления</h2>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="img/animals/maxwel.png" class="card-img-top" alt="cat">
+                            <div class="card-body">
+                              <h5 class="card-title">Найдена кошка, Боровское ш., Мск</h5>
+                              <p class="card-text">Найдена Кошка. Чëрная с белой грудкой, лапками и усами. На вид около 10 лет. Имеет небольшой избыточный вес. К лотку приучена.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="img/animals/puppy.png" class="card-img-top" alt="dog">
+                            <div class="card-body">
+                              <h5 class="card-title">Найдена собака: Щелково, Кармолино</h5>
+                              <p class="card-text">МО, Щелковский р-он, деревня Кармолино, замечен щенок в ошейнике, месяца 4 на вид. Для связи : +79778047843, Юлия</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="img/animals/citty.png" class="card-img-top" alt="cat">
+                            <div class="card-body">
+                              <h5 class="card-title">Найдена кошка: Соколиной Горы, 8к1</h5>
+                              <p class="card-text">Кошечку подбросили в подъезд, очень стресует. Породистая.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="img/animals/gratcat.png" class="card-img-top" alt="cat">
+                            <div class="card-body">
+                              <h5 class="card-title">Кошечку подбросили в подъезд, очень стресует. Породистая.</h5>
+                              <p class="card-text">Город Подольск, ул.Народная 29А, 3-й подъезд, на площадке девятого этажа. 29.11.2023.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                              <img src="img/animals/bigdog.png" class="card-img-top" alt="dog">
+                              <div class="card-body">
+                                <h5 class="card-title">Найдена собака, Ясеневая ул., Москва</h5>
+                                <p class="card-text">С коричневым кожаным ошейником, бегает ищет следы. На контакт не пошел</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card h-100">
+                              <img src="img/animals/doggy.png" class="card-img-top" alt="dog">
+                              <div class="card-body">
+                                <h5 class="card-title">Найдена собака: Строгинский б-р, 1 к2</h5>
+                                <p class="card-text">В магазине Перекресток сидел пес. По словам сотрудников – находился в магазине очень долго. Спокойный, с ошейником.</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="row-center">
+                        <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Предыдущая">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Следующая">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                      </div>
+                      
+                   
+                  </div>
+                </div>
+              </section>
+		</main>
+		<footer>
+			<p class="text-white p-3">Текст футера1</p>
+			<p class="text-white p-3">Текст футера2</p>
+		</footer>
+
+<!--		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+-->    
+	<script src="js/bootstrap.bundle.min.js"></script>
+	</body>
+	
+</html>

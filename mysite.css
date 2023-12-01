@@ -100,8 +100,10 @@
 
 .card-img-top{
     max-height: 300px;
-
-    
+}
+.card-img-top1{
+    max-height: 300px;
+    max-width: 300px;
 }
 .card-text{
     overflow: hidden;
@@ -152,4 +154,9 @@ footer{
 }
 .reg-add-pet > summary{
     /*list-style: none;*/
+}
+.row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
