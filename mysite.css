@@ -171,3 +171,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
+.reg-a{
+    color: red;
+    text-decoration: none;
+}

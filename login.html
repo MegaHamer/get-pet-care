@@ -9,7 +9,7 @@
 -->
 <html lang="ru">
     <head>
-        <title>Регистрация</title>
+        <title>Вход</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -55,18 +55,16 @@
             <div class="reg-window">
                 <h2>Регистрация</h2>
                 <form class="form-reg" >
-                    <input class="form-control" type="text" placeholder="Имя пользователя" pattern="^[а-яА-Я -]{18}" required>
-                    <input class="form-control" type="tel" placeholder="Телефон" pattern="^(+)?[0-9]{11}$" required>
                     <input class="form-control" type="email" placeholder="Почта" required>
                     <input class="form-control" type="password" placeholder="Пароль" pattern="^[a-zA-Z0-9!/.,*-+()#$@;:&?]{2}$" required>
-                    <input class="form-control" type="password" placeholder="Подтверждение пароля" pattern="^[a-zA-Z0-9!/.,*-+()#$@;:&?]{2}$" required>
+                    <p>Забыли пароль?<a href="#" class="reg-a">Восстановить</a></p>
                     <div>
                         <input type="checkbox" id="sogl" required>
                         <label for="sogl">Согласие на обработку персональных данных</label>
                     </div>
                     <button class="btn primary-color2 btn-primary m-auto" type="submit">Регистрация</button>
                 </form>
-				<p>Уже зарегистрировались?<a href="login.html" class="reg-a">Войти</a></p>
+                <p>Еще не зарегистрировались? <a class="reg-a" href="registr.html">Регистрация</a></p>
             </div>
 		</main>
 		<footer>
