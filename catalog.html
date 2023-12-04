@@ -9,7 +9,7 @@
 -->
 <html lang="ru">
     <head>
-        <title>Личный кабинет</title>
+        <title>Поиск по объявлениям</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -31,7 +31,7 @@
 						<a class="nav-link " aria-current="page" href="index.html">Главная</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" href="cabinet.html">Личный кабинет</a>
+						<a class="nav-link" href="cabinet.html">Личный кабинет</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="registr.html">Регистрация</a>
@@ -40,7 +40,7 @@
 						<a class="nav-link" href="addpet.html">Добавить объявление</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="catalog.html">Поиск по объявлениям</a>
+						<a class="nav-link active" href="catalog.html">Поиск по объявлениям</a>
 					</li>
 					</ul>
 					<form class="d-flex">
@@ -54,60 +54,13 @@
 		<main>
             <section style="background-color: #eee;">
                 <div class="container py-5">
-                  <div class="row">
+                <div class="row">
                     <div class="row">
-                        <div class="col-lg-4">
-                        <div class="card mb-4">
-                            <div class="card-body text-center">
-                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar"
-                                class="rounded-circle img-fluid" style="width: 150px;">
-                            <h5 class="my-3">User227_xxxXXxxx_</h5>
-                            </div>
-                        </div>
-                        
-                        </div>
-                        <div class="col-lg-8">
-                        <div class="card mb-4">
-                            <div class="card-body">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                <p class="mb-0">Имя пользователя</p>
-                                </div>
-                                <div class="col-sm-8">
-                                <p class="text-muted mb-0">Чуркин Артем</p>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="row">
-                                <div class="col-sm-4">
-                                <p class="mb-0">Почта</p>
-                                </div>
-                                <div class="col-sm-8">
-                                <p class="text-muted mb-0">example@example.com</p>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="row">
-                                <div class="col-sm-4">
-                                <p class="mb-0">Телефон</p>
-                                </div>
-                                <div class="col-sm-8">
-                                <p class="text-muted mb-0">(097) 234-5678</p>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="row">
-                                <div class="col-sm-4">
-                                <p class="mb-0">Адрес</p>
-                                </div>
-                                <div class="col-sm-8">
-                                <p class="text-muted mb-0">Санкт-Петербург</p>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        
-                        </div>
+                        <h2>Поиск по объявлениям</h2>
+                        <form class="form-reg" >
+                            <input class="form-control" type="text" placeholder="Отличительные особенности питомца">
+                            <button class="btn primary-color2 btn-primary m-auto" type="submit">Поиск</button>
+                        </form>
                     </div>
                     <h2 class="row">Размещенные объявления</h2>
                     <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -165,7 +118,7 @@
                               </div>
                             </div>
                           </div>
-                      </div>
+                    </div>
                       <div class="row-center">
                         <ul class="pagination">
                         <li class="page-item">
@@ -183,11 +136,9 @@
                         </li>
                       </ul>
                       </div>
-                      
-                   
-                  </div>
                 </div>
-              </section>
+                </div>
+            </section>
 		</main>
 		<footer>
 			<p class="text-white p-3">Текст футера1</p>
